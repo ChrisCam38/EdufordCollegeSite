@@ -1,0 +1,190 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="with=device-width, initial-scale=1.0"> <!--codigo que hace que la pagina sea responsive--> 
+        <title>University Website Design - Easy Tutorial</title>
+        <link  href="style.css" rel="stylesheet"/> <!--vinculo de hoja con estilos-->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> <!--codigo que conecta con Fontawesome CDN para usar iconos-->
+    </head>
+    <body>
+        <section class="header"> <!--section se usa para agrupar contenido, tiene un valor semantico-->
+           <nav>
+                <a href="index.html"><img src="images/logo.png"/></a> <!--la etiqueta a crea un enlace a otras paginas o a la misma pagina-->
+                <div class="nav-links" id="navLinks"> 
+                    <i class="fa fa-times" onclick="hideMenu()"></i> <!--codigo de Fontawesome para vincular icono de cierre, se anade onclick para efecto de cierre con el script-->
+                    <ul>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="about.html">ABOUT</a></li>
+                        <li><a href="course.html">COURSE</a></li>
+                        <li><a href="blog.html">BLOG</a></li>
+                        <li><a href="contact.html">CONTACT</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i><!--codigo de Fontawesome para vincular icono de menu, onclick para referencias funciones del script-->
+           </nav>
+           <div class="text-box">
+                <h1>World's Biggest University</h1>
+                <p>Making a Website is now one of the easiest thing in the world. 
+                 You just neet to learn HTML, CSS,<br> and JavaScript and your are good to go.</p>
+                 <a href="" class="hero-btn">Visit us to know more</a>
+           </div>
+        </section>
+
+<!-----------------------Course---------------------------->     
+
+        <section class="course">
+                <h1>Courses We Offer</h1>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+       
+                <div class="row">
+                    <div class="course-col">
+                        <h3>Intermediate</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                            Sapiente voluptas magnam asperiores deleniti eum aliquam 
+                            eligendi assumenda, magni nobis tempora eius velit numquam 
+                            iure libero minus impedit a exercitationem necessitatibus.</p>
+                    </div>
+
+                    <div class="course-col">
+                        <h3>Degree</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                            Sapiente voluptas magnam asperiores deleniti eum aliquam 
+                            eligendi assumenda, magni nobis tempora eius velit numquam 
+                            iure libero minus impedit a exercitationem necessitatibus.</p>
+                    </div>
+
+                    <div class="course-col">
+                        <h3>Post Graduation</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                            Sapiente voluptas magnam asperiores deleniti eum aliquam 
+                            eligendi assumenda, magni nobis tempora eius velit numquam 
+                            iure libero minus impedit a exercitationem necessitatibus.</p>
+                    </div>
+                    
+                </div>
+            </section>
+<!-----------------------Campus---------------------------->  
+
+            <section class="campus">
+                <h1>Our global campus</h1>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+
+                <div class="row">
+                    <div class="campus-col">
+                        <img src="images/london.png">
+                        <div class="layer">
+                            <h3>LONDON</h3>
+                        </div>
+
+                    </div>
+
+                    <div class="campus-col">
+                        <img src="images/newyork.png">
+                        <div class="layer">
+                            <h3>NUEVA YORK</h3>
+                        </div>
+
+                    </div>
+
+                    <div class="campus-col">
+                        <img src="images/washington.png">
+                        <div class="layer">
+                            <h3>WHASINGTON</h3>
+                        </div>
+
+                    </div>
+                </div>
+
+            </section>
+
+<!-------------------------Facilities----------------------->
+
+            <section class="facilities">
+                <h1>Our Facilities</h1>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+
+                <div class="row">
+                    <div class="facilities-col">
+                        <img src="images/library.png" alt="Photo of library">
+                        <h3>World Class Library</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                            Sapiente voluptas magnam asperiores deleniti eum aliquam</p>
+                    </div>
+
+                    <div class="facilities-col">
+                        <img src="images/basketball.png" alt="Photo of library">
+                        <h3>Largest Play Ground</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                            Sapiente voluptas magnam asperiores deleniti eum aliquam</p>
+                    </div>
+
+                    <div class="facilities-col">
+                        <img src="images/cafeteria.png" alt="Photo of library">
+                        <h3>Tasty and healthy food </h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                            Sapiente voluptas magnam asperiores deleniti eum aliquam</p>
+                    </div>
+                </div>
+
+            </section>
+<!-------------------------Testimonials----------------------->
+
+            <section class="testimonials">
+                <h1>What our students says</h1>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+
+                <div class="row">
+                    <div class="testimonial-col">
+                        <img src="images/user1.jpg">
+                        <div>
+                            <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                Sapiente voluptas magnam asperiores deleniti eum aliquam</P>
+                            <h3>Camila Viveros</h3>
+                        </div>
+                    </div>
+
+                    <div class="testimonial-col">
+                        <img src="images/user2.jpg">
+                        <div>
+                            <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                Sapiente voluptas magnam asperiores deleniti eum aliquam</P>
+                            <h3>David Garcia</h3>
+                        </div>
+                    </div>
+
+                    
+                </div>
+
+            </section>
+<!-------------------------Call to action----------------------->
+
+            <section class="cta">
+
+                <h1>Enroll for our various online courses <br/> anywhere from the world</h1>
+                <a href="" class="hero-btn"> CONTACT US</a>
+                
+            </section>
+
+<!--------------------------Footer------------------------------->
+
+            <section class="footer">
+                <h4>About Us</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.<br> 
+                    Sapiente voluptas magnam asperiores deleniti eum aliquam</P>     
+            </section>
+
+
+<!---------------JavaScript for Toggle Menu----------------->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+    </script>
+
+    </body>
+</html>
